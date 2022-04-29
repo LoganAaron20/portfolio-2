@@ -1,0 +1,112 @@
+/* Header */
+header {
+    background-color: #d1bea8;
+    padding: 7px;
+
+}
+
+.main-color {
+    background-color: #836953;
+    padding: 100px;
+}
+
+/* Set to easily center text withing HTML code */
+.text-center {
+    text-align: center;
+}
+/* PARAGRAPHS */
+p {
+    color: white;
+}
+/* HEADERS */
+h1 {
+    color: white ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+}
+h5 {
+    color: white;
+    font-size: 30px
+}
+/* UNORDERED LIST */
+ul {
+    color: white;
+}
+
+/*ORDERED LIST */
+ol {
+    color: white;
+}
+
+/* Styling the footer */
+footer {
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #d1bea8;
+    height: auto;
+    
+    padding: 20px;
+    color: #d1bea8;
+}
+/* Not in use
+.top-center {
+    text-align: top;
+}
+        */
+
+
+/* Creating a light blue dashed line */
+hr {
+    border-top: 5px dashed #d1bea8;
+}
+
+/* Customizing the display of the image */
+img {
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    padding:1px;
+    border:1px solid #d1bea8;
+    background-color: #d1bea8;
+    border-radius: 50%;
+    
+}
+
+body {
+    background: #d1bea8;
+}
+/* link psuedo-class */
+a:link { /* unvisited link */
+    color: #d1bea8;
+}
+
+a:active { /* visited link */
+    color: blue;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover { /* mouse over link */
+    color: red;
+    border-bottom: none;
+}
+
+a:visited { /* active link */
+    color: tan;
+}
