@@ -6,8 +6,10 @@ header {
 }
 
 .main-color {
-    background-color: #836953;
+    background-color: white;
     padding: 100px;
+     
+    
 }
 
 /* Set to easily center text withing HTML code */
@@ -16,39 +18,43 @@ header {
 }
 /* PARAGRAPHS */
 p {
-    color: white;
+    color: black;
+    font-size: 24px;
 }
 /* HEADERS */
 h1 {
-    color: white ;
+    color: black ;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 h2 {
-    color: white;
+    color: black;
+    font-size: 37px;
 }
 
 h3 {
-    color: white;
+    color: black;
+    font-size: 30px;
 }
 
 h4 {
-    color: white;
+    color: black;
     font-size: 30px;
 }
 h5 {
-    color: white;
+    color: black;
     font-size: 30px
 }
 /* UNORDERED LIST */
 ul {
-    color: white;
+    color: black;
+    font-size: 19px;
 }
 
 /*ORDERED LIST */
 ol {
-    color: white;
+    color: black;
 }
 
 /* Styling the footer */
@@ -93,7 +99,7 @@ body {
 }
 /* link psuedo-class */
 a:link { /* unvisited link */
-    color: #d1bea8;
+    color: black;
 }
 
 a:active { /* visited link */
@@ -108,5 +114,9 @@ a:hover { /* mouse over link */
 }
 
 a:visited { /* active link */
-    color: tan;
+    color: black;
+}
+
+.black-text {
+    color: black;
 }
