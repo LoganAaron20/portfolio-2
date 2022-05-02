@@ -94,6 +94,13 @@ img {
     
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%
+
+}
+
 body {
     background: #d1bea8;
 }
